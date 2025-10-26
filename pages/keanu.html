@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Keanu Reeves — Families Only | Celebrity Hub</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <header class="site-header center">
+    <div class="logo-wrap">
+      <a href="../index.html"><img src="../assets/logo.png" alt="Celebrity Hub logo" class="logo"/></a>
+      <h1>Keanu Reeves — Families Only</h1>
+      <p class="tagline">This page was created so Keanu Reeves’ families — his fans — can connect with the real Keanu Reeves. It’s a safe and official hub for appointments, sponsorship, charity, and families to connect with me.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="profile-hero">
+      <div class="profile-content">
+        <h2>Keanu Reeves</h2>
+        <p class="muted">Actor · Philanthropist · Icon</p>
+        <p>Short bio — placeholder text. Replace this paragraph with Keanu's bio. Mention notable works, philanthropic efforts, and why this official page exists.</p>
+
+        <div class="section">
+          <h3>Works & Highlights</h3>
+          <ul>
+            <li>The Matrix series</li>
+            <li>John Wick series</li>
+            <li>Speed</li>
+          </ul>
+        </div>
+
+        <div class="section">
+          <h3>Philanthropy</h3>
+          <p>Keanu has been known for charitable donations and supporting research. Replace with real details.</p>
+        </div>
+
+        <div class="section">
+          <h3>Upcoming Projects</h3>
+          <p>List upcoming films or appearances here.</p>
+        </div>
+
+      </div>
+
+      <aside>
+        <img class="profile-img" src="../assets/keanu.jpg" alt="Keanu Reeves"/>
+      </aside>
+    </section>
+
+    <section class="section">
+      <h3>Connect & Options</h3>
+      <div class="profile-grid">
+        <div class="category-card fadein">
+          <h4>Book an Appointment</h4>
+          <p>Schedule a personal or family appointment. Use this for fan meetings and private bookings.</p>
+          <button class="btn" data-open-modal data-category="Book an Appointment" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Partnership</h4>
+          <p>Brand collaboration and official partnerships.</p>
+          <button class="btn" data-open-modal data-category="Partnership" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Sponsorship</h4>
+          <p>Event sponsorship and promotional inquiries.</p>
+          <button class="btn" data-open-modal data-category="Sponsorship" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Chat Me</h4>
+          <p>Short fan messages and greetings.</p>
+          <button class="btn" data-open-modal data-category="Chat Me" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Donate to Charity</h4>
+          <p>Support causes supported by the celebrity.</p>
+          <button class="btn" data-open-modal data-category="Donate to Charity" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Report Scam</h4>
+          <p>Report impersonation or fraudulent activity.</p>
+          <button class="btn" data-open-modal data-category="Report Scam" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Merchandise</h4>
+          <p>Official merch inquiries and orders.</p>
+          <button class="btn" data-open-modal data-category="Merchandise" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+        <div class="category-card fadein">
+          <h4>Support Cancer Research</h4>
+          <p>Donation & partnership for cancer research.</p>
+          <button class="btn" data-open-modal data-category="Support Cancer Research" data-recipient="familiesonly02964@gmail.com">Contact</button>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Picture Gallery</h3>
+      <div class="gallery-grid">
+        <img src="../assets/keanu-1.jpg" alt="Keanu 1">
+        <img src="../assets/keanu-2.jpg" alt="Keanu 2">
+        <img src="../assets/keanu-3.jpg" alt="Keanu 3">
+        <img src="../assets/keanu-4.jpg" alt="Keanu 4">
+        <img src="../assets/keanu-5.jpg" alt="Keanu 5">
+        <img src="../assets/keanu-6.jpg" alt="Keanu 6">
+        <img src="../assets/keanu-7.jpg" alt="Keanu 7">
+        <img src="../assets/keanu-8.jpg" alt="Keanu 8">
+        <img src="../assets/keanu-9.jpg" alt="Keanu 9">
+        <img src="../assets/keanu-10.jpg" alt="Keanu 10">
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Video Gallery</h3>
+      <p>Embed video links or YouTube/Vimeo clips here.</p>
+      <div style="margin-top:10px;display:grid;grid-template-columns:1fr;gap:10px">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <footer class="site-footer center">
+      <p>© Celebrity Hub</p>
+    </footer>
+  </main>
+
+  <div class="modal" role="dialog" aria-modal="true">
+    <div class="modal-content">
+      <button class="close btn-ghost">Close</button>
+      <h3>Contact — Send a request</h3>
+      <form id="contact-form" method="post">
+        <input type="hidden" name="recipient" value="">
+        <div class="form-row">
+          <div class="input">
+            <label>Name *</label>
+            <input name="name" required />
+          </div>
+          <div class="input">
+            <label>Email *</label>
+            <input name="email" type="email" required />
+          </div>
+        </div>
+        <div class="form-row" style="margin-top:10px">
+          <div class="input">
+            <label>Location *</label>
+            <input name="location" required />
+          </div>
+          <div class="input">
+            <label>Date of Birth (optional)</label>
+            <input name="dob" type="date" />
+          </div>
+        </div>
+        <div style="margin-top:10px">
+          <label>Subject *</label>
+          <input name="subject" required />
+        </div>
+        <div style="margin-top:10px">
+          <label>Message *</label>
+          <textarea name="message" rows="5" required></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" class="btn-ghost close">Cancel</button>
+          <button type="submit" class="btn">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="lightbox"><img src="" alt="" /></div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
